@@ -1,0 +1,7 @@
+app-aside {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    background: cornflowerblue;
+    bottom: 0;
+}

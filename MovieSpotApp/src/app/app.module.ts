@@ -10,6 +10,7 @@ import { SectionComponent } from './shared/section/section.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { AddMovieComponent } from './add-movie/add-movie.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { AppRoutingModule } from './/app-routing.module';
     AsideComponent,
     SectionComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    AddMovieComponent
   ],
   imports: [
     BrowserModule,

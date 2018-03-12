@@ -2,6 +2,7 @@ app-aside {
     position: fixed;
     top: 55px;
     left: 0;
-    background: cornflowerblue;
     bottom: 0;
+    background-color: #2a3542;
+    width: 200px;
 }

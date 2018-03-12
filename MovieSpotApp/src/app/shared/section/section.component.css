@@ -1,5 +1,6 @@
 app-section {
-    position: absolute;
+    position: relative;
     top: 60px;
     left: 200px;
+    width: calc(100% - 200px);
 }

@@ -11,6 +11,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { AddMovieComponent } from './add-movie/add-movie.component';
+import { BreadcrumbComponent } from './shared/breadcrumb/breadcrumb.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { AddMovieComponent } from './add-movie/add-movie.component';
     SectionComponent,
     AboutComponent,
     ContactComponent,
-    AddMovieComponent
+    AddMovieComponent,
+    BreadcrumbComponent
   ],
   imports: [
     BrowserModule,

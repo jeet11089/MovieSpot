@@ -10,8 +10,9 @@ import { SectionComponent } from './shared/section/section.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AppRoutingModule } from './/app-routing.module';
-import { AddMovieComponent } from './add-movie/add-movie.component';
+import { AddMovieComponent } from './pages/add-movie/add-movie.component';
 import { BreadcrumbComponent } from './shared/breadcrumb/breadcrumb.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { BreadcrumbComponent } from './shared/breadcrumb/breadcrumb.component';
     AboutComponent,
     ContactComponent,
     AddMovieComponent,
-    BreadcrumbComponent
+    BreadcrumbComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

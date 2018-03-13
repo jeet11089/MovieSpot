@@ -13,6 +13,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { AddMovieComponent } from './pages/add-movie/add-movie.component';
 import { BreadcrumbComponent } from './shared/breadcrumb/breadcrumb.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawesome';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    Angular2FontawesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

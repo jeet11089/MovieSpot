@@ -1,3 +1,10 @@
-.navbar{
-    background-color: #fff;
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  background-image: url('/assets/images/bootstrap-solid.svg');
+  width: 40px;
+  height: 40px;
+  margin: 0px;
 }

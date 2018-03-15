@@ -1,6 +1,7 @@
 section {
     position: relative;
-    top: 100px;
-    left: 200px;
-    width: calc(100% - 170px);
+    top: 60px;
+    left: 265px;
+    width: calc(100% - 250px);
+    padding-bottom: 60px;
 }

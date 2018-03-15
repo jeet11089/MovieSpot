@@ -1,11 +1,21 @@
-<ul class="nav flex-column">
+<ul class="nav flex-column mb-2 mt-2">
   <li class="nav-item">
-    <a class="nav-link" routerLink="/about">About</a>
+    <a class="nav-link" routerLink="/">
+      <fa [name]="'dashboard'"></fa>Dashboard</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/addmovie">
+      <fa [name]="'plus-circle'"></fa>Add Movie</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" routerLink="/">
+        <fa [name]="'user-plus'"></fa>Add User</a>
+    </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/about">
+      <fa [name]="'user'"></fa>About</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" routerLink="/contact">Contact</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/addmovie">Add Movie</a>
   </li>
 </ul>

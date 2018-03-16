@@ -14,6 +14,10 @@ import { AddMovieComponent } from './pages/add-movie/add-movie.component';
 import { BreadcrumbComponent } from './shared/breadcrumb/breadcrumb.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawesome';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
 
 
 @NgModule({
@@ -32,7 +36,10 @@ import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawe
   imports: [
     BrowserModule,
     AppRoutingModule,
-    Angular2FontawesomeModule
+    Angular2FontawesomeModule,
+    MatTableModule,
+    MatPaginatorModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

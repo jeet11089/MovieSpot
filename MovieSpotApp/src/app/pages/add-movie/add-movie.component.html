@@ -1,104 +1,130 @@
-<div class="row">
-  <div class="col-4">
-    <div class="form-group">
-      <label>Movie Name</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Movie Poster</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Actors (Cast)</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Actress</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Initial release</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Release Date</label>
-      <input type="text" class="form-control">
-    </div>
-  </div>
-  <div class="col-4">
-    <div class="form-group">
-      <label>Play Trailer on YouTube</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Directed by</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Produced by</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Written by</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Screenplay by</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Music director</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Music by</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Cinematography</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Edited by</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Production</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>company</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Country</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Language</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Budget</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Genre</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Length</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>Movie Type</label>
-      <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label>
-        Starring, Label, , Box office Songs collect
-      </label>
-      <input type="text" class="form-control">
+<div class="bg-white">
+  <div class="col py-3">
+    <div class="row">
+      <div class="col-4">
+        <div class="form-group">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Movie Name">
+          </mat-form-field>
+        </div>
+        <div class="form-group">
+          <label>Movie Poster</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Actors (Cast)</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Actress</label>
+          <input type="text" class="form-control">
+        </div>
+        <!-- <div class="form-group">
+              <mat-form-field>
+                <input matInput [matDatepicker]="picker" placeholder="Initial release">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+              </mat-form-field>
+            </div> -->
+        <div class="form-group">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Release Date">
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="form-group">
+          <label>Play Trailer on YouTube</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Directed by">
+          </mat-form-field>
+        </div>
+        <div class="form-group">
+          <label>Produced by</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Written by">
+          </mat-form-field>
+        </div>
+        <div class="form-group">
+          <label>Screenplay by</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Music director">
+          </mat-form-field>
+        </div>
+        <div class="form-group">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Music by">
+          </mat-form-field>
+        </div>
+        <div class="form-group">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Cinematography">
+          </mat-form-field>
+        </div>
+        <div class="form-group">
+          <label>Edited by</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Production</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>company</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <mat-form-field>
+            <mat-select placeholder="Country" [formControl]="toppings" multiple>
+              <mat-option *ngFor="let topping of toppingList" [value]="topping">{{topping}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <div class="form-group">
+          <mat-form-field>
+            <mat-select placeholder="Language" [formControl]="language" multiple>
+              <mat-option *ngFor="let language of languageList" [value]="topping">{{language}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+          <label></label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <mat-form-field>
+            <input matInput placeholder="Budget" type="number" class="example-right-align">
+            <span matPrefix>$&nbsp;</span>
+            <span matSuffix>.00</span>
+          </mat-form-field>
+        </div>
+        <div class="form-group">
+          <mat-form-field>
+            <mat-select placeholder="Genre" [formControl]="genre" multiple>
+              <mat-option *ngFor="let genre of genreList" [value]="topping">{{genre}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+          <label></label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Length</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>
+            Starring, Label, , Box office Songs collect
+          </label>
+          <input type="text" class="form-control">
+        </div>
+      </div>
     </div>
   </div>
 </div>

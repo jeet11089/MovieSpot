@@ -14,9 +14,16 @@ import { AddMovieComponent } from './pages/add-movie/add-movie.component';
 import { BreadcrumbComponent } from './shared/breadcrumb/breadcrumb.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawesome';
-import {MatTableModule} from '@angular/material/table';
-import {MatPaginatorModule} from '@angular/material/paginator';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+
+
+
 
 
 
@@ -39,7 +46,11 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     Angular2FontawesomeModule,
     MatTableModule,
     MatPaginatorModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatInputModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -11,3 +11,8 @@ body {
 img {
     width: 100%;
 }
+
+.mat-form-field-appearance-legacy .mat-form-field-label {
+    color: rgb(0, 0, 0);
+    font-family: 'Maven Pro', sans-serif;
+}

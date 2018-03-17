@@ -21,10 +21,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
-
-
-
-
+import { ImageUploadModule } from "angular2-image-upload";
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
 
 
 @NgModule({
@@ -50,7 +48,10 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     MatInputModule,
     FormsModule,
     ReactiveFormsModule,
-    MatSelectModule
+    MatSelectModule,
+    ImageUploadModule.forRoot(),
+    MatAutocompleteModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

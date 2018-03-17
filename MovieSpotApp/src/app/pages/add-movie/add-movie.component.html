@@ -1,5 +1,5 @@
-<div class="bg-white">
-  <div class="col py-3">
+<div class="bg-white br-4">
+  <div class="col py-4">
     <div class="row">
       <div class="col-4">
         <div class="form-group">
@@ -8,24 +8,35 @@
           </mat-form-field>
         </div>
         <div class="form-group">
-          <label>Movie Poster</label>
-          <input type="text" class="form-control">
+          <image-upload [buttonCaption]="'Movie Poster'" [clearButtonCaption]="'Remove'" [dropBoxMessage]="' '"></image-upload>
         </div>
         <div class="form-group">
-          <label>Actors (Cast)</label>
-          <input type="text" class="form-control">
+          <mat-form-field class="example-full-width">
+            <input type="text" placeholder="Actors (Cast)" aria-label="Number" matInput [formControl]="actorsList" [matAutocomplete]="auto">
+            <mat-autocomplete #auto="matAutocomplete">
+              <mat-option *ngFor="let actorsoption of actorsoptions" [value]="actorsoption">
+                {{ actorsoption }}
+              </mat-option>
+            </mat-autocomplete>
+          </mat-form-field>
         </div>
         <div class="form-group">
-          <label>Actress</label>
-          <input type="text" class="form-control">
+          <mat-form-field class="example-full-width">
+            <input type="text" placeholder="Actress" aria-label="Number" matInput [formControl]="actressList" [matAutocomplete]="auto">
+            <mat-autocomplete #auto="matAutocomplete">
+              <mat-option *ngFor="let actressoption of actressoptions" [value]="actressoption">
+                {{ actressoption }}
+              </mat-option>
+            </mat-autocomplete>
+          </mat-form-field>
         </div>
-        <!-- <div class="form-group">
-              <mat-form-field>
+        <div class="form-group">
+          <!-- <mat-form-field>
                 <input matInput [matDatepicker]="picker" placeholder="Initial release">
                 <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
                 <mat-datepicker #picker></mat-datepicker>
-              </mat-form-field>
-            </div> -->
+              </mat-form-field> -->
+        </div>
         <div class="form-group">
           <mat-form-field class="example-full-width">
             <input matInput placeholder="Release Date">
@@ -95,8 +106,6 @@
               <mat-option *ngFor="let language of languageList" [value]="topping">{{language}}</mat-option>
             </mat-select>
           </mat-form-field>
-          <label></label>
-          <input type="text" class="form-control">
         </div>
         <div class="form-group">
           <mat-form-field>
@@ -120,7 +129,7 @@
         </div>
         <div class="form-group">
           <label>
-            Starring, Label, , Box office Songs collect
+            Starring, Box office Songs collect
           </label>
           <input type="text" class="form-control">
         </div>

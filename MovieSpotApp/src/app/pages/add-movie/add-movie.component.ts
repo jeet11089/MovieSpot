@@ -19,6 +19,39 @@ export class AddMovieComponent implements OnInit {
   genre = new FormControl();
   genreList = ['Romantic', 'Sci', 'Action', 'Horon', 'Fic'];
 
+  actressList: FormControl = new FormControl();
+  actressoptions = [
+    'Priyanka Chopra',
+    'Deepika Padukone',
+    'Aishwarya Rai',
+    'Katrina Kaif',
+    'Anushka Sharma',
+    'Kareena Kapoor',
+    'Vidya Balan',
+    'Asin',
+    'Sonakshi Sinha',
+    'Sridevi',
+    'Kajol',
+    'Sonam Kapoor'
+  ];
+
+  actorsList: FormControl = new FormControl();
+  actorsoptions = [
+    'Amitabh Bachchan',
+    'Shah Rukh Khan',
+    'Aamir Khan',
+    'Akshay Kumar',
+    'Salman Khan',
+    'Kamal Haasan',
+    'Hrithik Roshan',
+    'Ajay Devgan',
+    'Rajinikanth',
+    'Naseeruddin Shah',
+    'Irrfan Khan',
+    'Anupam Kher'
+  ];
+
+
   constructor() { }
 
   ngOnInit() {

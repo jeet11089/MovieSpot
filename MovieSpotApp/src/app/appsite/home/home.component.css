@@ -1,0 +1,64 @@
+.carousel-item img {
+    height: 250px !important;
+}
+
+.card-header {
+    background-color: rgb(241, 242, 247);
+    border-radius: 0px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.img-banner {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-banner img {
+    height: 100%;
+    width: 100%;
+}
+
+figcaption {
+    margin: -66px -20px 19px;
+    padding: 5px 15px;
+    background-color: #0089ff61;
+}
+
+figcaption fa {
+    font-size: 25px;
+    color: greenyellow;
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.02);
+}
+
+.card-footer {
+    background-color: #fff;
+    border-top: 1px solid rgba(0, 0, 0, .02);
+}
+
+.card-title {
+    text-align: center;
+}
+
+.po-top {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.po-bottom {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.po-top fa {
+    font-size: 30px;
+}

@@ -23,6 +23,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { ImageUploadModule } from "angular2-image-upload";
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { HomeComponent } from './appsite/home/home.component';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material';
+
 
 
 @NgModule({
@@ -36,7 +40,8 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
     ContactComponent,
     AddMovieComponent,
     BreadcrumbComponent,
-    DashboardComponent
+    DashboardComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +55,9 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
     ReactiveFormsModule,
     MatSelectModule,
     ImageUploadModule.forRoot(),
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatDatepickerModule,
+    MatNativeDateModule
 
   ],
   providers: [],

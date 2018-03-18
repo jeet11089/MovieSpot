@@ -17,7 +17,7 @@ export class AddMovieComponent implements OnInit {
   languageList = ['India', 'Afghanistan', 'Bahamas', 'Cambodia', 'Denmark', 'Egypt', 'France', 'Germany', 'Hong Kong', 'Iceland', 'Japan', 'Kuwait'];
 
   genre = new FormControl();
-  genreList = ['Romantic', 'Sci', 'Action', 'Horon', 'Fic'];
+  genreList = [ 'Action', 'Adventure', 'Animation', 'Biography', 'Comedy', 'Crime', 'Documentary', 'Drama', 'Family', 'Fantasy', 'Film Noir', 'History', 'Horror', 'Music', 'Musical', 'Mystery', 'Romance', 'Sci-Fi', 'Short','Sport', 'Superhero', 'Thriller', 'War', 'Western'];
 
   actressList: FormControl = new FormControl();
   actressoptions = [

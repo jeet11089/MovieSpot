@@ -6,6 +6,7 @@ import { ContactComponent } from '../app/pages/contact/contact.component';
 import { AsideComponent } from './shared/aside/aside.component';
 import { AddMovieComponent } from './pages/add-movie/add-movie.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { HomeComponent } from '../app/appsite/home/home.component';
 
 const routes: Routes = [
   { path: '', redirectTo:'/dashboard', pathMatch:'full' },
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'addmovie', component: AddMovieComponent }
+  { path: 'addmovie', component: AddMovieComponent },
+  { path: 'home', component: HomeComponent }
 ];
 
 @NgModule({

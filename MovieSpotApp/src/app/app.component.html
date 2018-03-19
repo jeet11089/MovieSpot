@@ -2,7 +2,7 @@
   <app-header class="fixed-top col-12"></app-header>
   <app-aside *ngIf="!hidePanel"></app-aside>
   <!-- <app-breadcrumb></app-breadcrumb> -->
-  <section class="row pt-4">
+  <section class="row pt-4" [ngClass]="{'expend': hidePanel}">
     <app-section class="col-12 px-3">
     </app-section>
   </section>

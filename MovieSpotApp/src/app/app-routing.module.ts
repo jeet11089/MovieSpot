@@ -6,7 +6,7 @@ import { ContactComponent } from '../app/pages/contact/contact.component';
 import { AsideComponent } from './shared/aside/aside.component';
 import { AddMovieComponent } from './pages/add-movie/add-movie.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
-import { HomeComponent } from '../app/appsite/home/home.component';
+import { HomeComponent } from '../app/user/home/home.component';
 
 const routes: Routes = [
   { path: '', redirectTo:'/dashboard', pathMatch:'full' },

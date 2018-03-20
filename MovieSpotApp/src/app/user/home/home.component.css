@@ -4,7 +4,7 @@
 
 .card-header {
   background-color: rgb(241, 242, 247);
-  border-radius: 0px;
+  /* border-radius: 0px; */
 }
 
 .fs-20 {
@@ -12,7 +12,7 @@
 }
 
 figure {
-  height: 300px;
+  /* height: 300px; */
   overflow: hidden;
   position: relative;
   margin-bottom: 0px;
@@ -24,23 +24,25 @@ figure img {
 }
 
 .card {
-  border: 1px solid rgba(0, 0, 0, 0.02);
   transition: all 2s;
   -webkit-transition: all 2s;
+  overflow: hidden;
+  animation: zoomIn .2s;
+  border-radius: 10px;
 }
 
-.card:hover figure img {
-  transform: scale(1.1);
-  -ms-transform: scale(1.1) rotate(2deg);
-  -moz-transform: scale(1.1) rotate(2deg);
-  -webkit-transform: scale(1.1) rotate(2deg);
-  transition: all 2s;
-  -ms-transform: all 2s;
-  -moz-transform: all 2s;
-  -webkit-transition: all 2s;
+.card figure:hover img {
+  transform: scale(1.1) rotate(2deg);
+  -ms-transform: scale(1.2) rotate(2deg);
+  -moz-transform: scale(1.2) rotate(2deg);
+  -webkit-transform: scale(1.2) rotate(2deg);
+  transition: all 1s;
+  -ms-transform: all 1s;
+  -moz-transform: all 1s;
+  -webkit-transition: all 1s;
 }
 
-.card:hover figcaption {
+.card figure:hover figcaption {
   display: block;
 }
 
@@ -53,12 +55,12 @@ figcaption {
   right: 0;
   bottom: 0;
   text-align: center;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   color: #fff;
-  transition: all 2s;
-  -ms-transform: all 2s;
-  -moz-transform: all 2s;
-  -webkit-transition: all 2s;
+  transition: all 1s;
+  /* -ms-transform: all 1s;
+  -moz-transform: all 1s; */
+  -webkit-transition: all 1s;
 }
 
 .card-footer {
@@ -66,11 +68,11 @@ figcaption {
   border-top: 1px solid rgba(0, 0, 0, .02);
 }
 
-.card-footer small img{
-    width: 35px;
-    height: 35px;
-    margin-left: -10px;
-    box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.3215686274509804);
+.card-footer small img {
+  width: 35px;
+  height: 35px;
+  margin-left: -10px;
+  box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.3215686274509804);
 }
 
 /* .po-top {
@@ -87,7 +89,8 @@ figcaption {
 .po-bottom {
   position: absolute;
   bottom: 20px;
-  width: 100%;
+  left: 0;
+  right: 0;
 }
 
 .po-bottom fa {
@@ -104,3 +107,4 @@ figcaption fa {
   color: greenyellow;
   cursor: pointer;
 }
+

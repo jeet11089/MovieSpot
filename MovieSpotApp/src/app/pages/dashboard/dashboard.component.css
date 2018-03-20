@@ -12,3 +12,24 @@
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+
+.card-footer, .card-header {
+    background: 0 0;
+}
+
+.custom-title-wrap {
+    margin-top: 10px;
+    margin-left: -1.25rem;
+    padding-left: 1.25rem;
+    border-left: 2px solid #e5e8eb;
+}
+
+.bar-primary {
+    border-color: #7a86ff;
+}
+
+.widget-action-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}

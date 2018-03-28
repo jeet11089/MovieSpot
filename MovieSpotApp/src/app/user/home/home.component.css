@@ -2,9 +2,9 @@
   height: 250px !important;
 }
 
-.card-header {
-  background-color: rgb(241, 242, 247);
-  /* border-radius: 0px; */
+.section-header {
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  padding: 10px 0;
 }
 
 .fs-20 {
